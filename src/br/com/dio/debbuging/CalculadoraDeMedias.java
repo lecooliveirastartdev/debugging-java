@@ -9,7 +9,7 @@ public class CalculadoraDeMedias {
 
         double media = calculaMediaDaTurma(alunos, scan);
 
-        System.out.printf("Média da turma %.1f", media);
+        System.out.printf("Média da turma %.2f", media);
     }
 
     public static double calculaMediaDaTurma(String[] alunos, Scanner scanner) {
